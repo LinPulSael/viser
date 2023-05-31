@@ -1,18 +1,42 @@
+<!DOCTYPE html>
 <html>
-    <head> 
-        <title> 이푸른새봄의 홈페이지 </title>
-        <style> 
+    <head>
+        <meta charset="utf-8">
+        <title>이푸른새봄의 홈페이지</title>
+ 
+        <style>
+            ul {list-style: none; border-top: 1px solid red; border-bottom: 1px solid red; text-align: center; padding: 10px 0px ;}
+            ul li{display: inline; padding: 0px 10px 0px 10px; letter-spacing: 8px; text-transform: uppercase;} 
+            ul li a{text-decoration: none; color: black;}
+            ul li a:hover{text-decoration: none; background:yellow;}
+ 
+            #header{background-color: #cccccc; text-align: center; padding: 3em 0em; background-image: url('panda.jpg') ; background-size: cover; height: 200px; color: white;}
             body {background-color: lightgray;}
         </style>
     </head>
-
     <body>
-        <form>
-            아 이 디 : <input type="email" name = "username"  value=" xxxxxx@xxxx.com">  <br> 
-            비밀번호 : <input type="password" name="pw" > <br>
+        <div id="header">
+            <h1>VISER'S HOME</h1>
+            <p>이푸른새봄의 홈페이지입니다 공사중</p>
+        </div>
+ 
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Blog</a></li>
+            <li><a>About</a></li>
+        </ul>
+        
+        <nav>
+            
+            <form>
+                아 이 디 : <input type="email" name = "username"  value=" xxxxxx@xxxx.com">  <br> 
+                비밀번호 : <input type="password" name="pw" > <br>
 
-            <input type="submit" value="로그인" > 
-           
-        </form>
+                <input type="submit" value="로그인" >
+                
+            </form>
+            
+        </nav>
+    
     </body>
 </html>
